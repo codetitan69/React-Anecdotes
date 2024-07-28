@@ -1,0 +1,52 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.annectode{
+  margin: auto;
+  height: 70px;
+  /* line-height: 80px; */
+  /* padding-top: 20px; */
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5{
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.btnCntr{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button{
+  cursor: pointer;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.mostVotes{
+  padding-top: 15px;
+}
+
+.mostVotes > p{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
